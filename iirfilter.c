@@ -132,7 +132,7 @@ int32_t lwn[4][2]={
 */
 void iir_filter_init(fdata_t *pfd)
 {
-  int8_t i,j;
+  int16_t i,j;
   for(i = 0;i < pfd->node;i++)
   {
     for(j=0;j<3;j++)
